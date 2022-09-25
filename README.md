@@ -72,12 +72,12 @@ Use this app in a browser.
 ---
 ### Open a Browser 
 
-![Browser](/Main/Assets/images/browser.jpg)  
+![Browser](/Assets/images/browser.jpg)  
 
 ---
 ### localhost:3000
 
-![local](/Main/Assets/images/localHost.jpg)  
+![local](/Assets/images/localHost.jpg)  
 
 
 ---
