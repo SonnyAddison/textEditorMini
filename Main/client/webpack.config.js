@@ -10,21 +10,23 @@ module.exports = () => {
       main: './src/js/index.js',
       install: './src/js/install.js'
     },
+    // Output the bundled code to dist directory
     output: {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
+    // Webpack plugins that will be used
     plugins: [
       new HtmlWebpackPlugin({
         template: './src/index.html',
         title: 'JATE - Just Another Text Editor',
       }),
-
+// Injects the custom service workers
       new InjectManifest({
         swSrc: './src/src-sw.js',
         swDest: 'src-sw.js',
-      })
-
+      }),
+// Craetes the manifest file
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
@@ -45,6 +47,7 @@ module.exports = () => {
     ],
 
     module: {
+      // Css Loaders
       rules: [
         {
           test: /\.css$/i,
@@ -53,6 +56,7 @@ module.exports = () => {
         {
           test: /\.js$/,
           exclude: /node_modules/,
+          // Seting up the use of babel to use ES6
           use: {
             loader: 'babel-loader',
             options: {
