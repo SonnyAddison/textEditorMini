@@ -17,8 +17,6 @@ butInstall.addEventListener('click', async () => {
     }
 
     promptEvent.prompt();
-    const result = await promptEvent.userChoice;
-    console.log(result.outcome);
     window.deferredPrompt = null;
     butInstall.classList.toggle('hidden', true);
 });

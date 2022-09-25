@@ -18,12 +18,12 @@ module.exports = () => {
     // Webpack plugins that will be used
     plugins: [
       new HtmlWebpackPlugin({
-        template: './src/index.html',
+        template: './index.html',
         title: 'JATE - Just Another Text Editor',
       }),
 // Injects the custom service workers
       new InjectManifest({
-        swSrc: './src/src-sw.js',
+        swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
 // Craetes the manifest file
@@ -36,9 +36,10 @@ module.exports = () => {
         background_color: '#01579b',
         theme_color: '#ffffff',
         start_url: '/',
+        publicPath: '/',
         icons: [
           {
-            src: path.resolve('src/images/icons/icon-512x512.png'),
+            src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('assets', 'icons'),
           },
@@ -54,7 +55,7 @@ module.exports = () => {
           use: ['style-loader', 'css-loader'],
         },
         {
-          test: /\.js$/,
+          test: /\.m?js$/,
           exclude: /node_modules/,
           // Seting up the use of babel to use ES6
           use: {
