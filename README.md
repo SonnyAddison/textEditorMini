@@ -5,16 +5,13 @@
 
   ## Description
 
-
- 
+Mini Text editor that uses a Progressive Web Applicaion (PWA) to allow for a faster mini text editor to use for fooling around and playing with your ideas. 
 
 ## User Story
 
 AS A developer  
 I WANT to create notes or code snippets with or without an internet connection  
 SO THAT I can reliably retrieve them for later use
-
-
 
 ## Acceptance Criteria
 
@@ -61,42 +58,34 @@ THEN I should have proper build scripts for a webpack application
 - Open the intergrated terminal within you chosen code editor.
 - Open the pachage.json file and verify the terminal commands.
 - In the integrated terminal type in "npm i" to obtain nod_modules.
-- Start the server by entering: npm run dev.
-- Use Insomnia to interact with server. 
+- Start the server by entering: npm run start:dev.
+- Once system is up and listening, open your browser and type in "localhost:3000"
+- Click on the install button
+- Have fun 
   
 ---
 
 ## Usage  
 
-To interact with the server you will need to use insomnia for the user interface.
-To interact with the database you will need to use MongoDB Compass.  
+Use this app in a browser.
 
 ---
-### Getting List of all Users 
+### Open a Browser 
 
-![Get Users](/assets/images/getUsers.jpg)  
-
----
-### Adding a User
-
-![Add Users](/assets/images/addingUser.jpg)  
+![Browser](/assets/images/getUsers.jpg)  
 
 ---
+### localhost:3000
 
-### Updating User Data 
+![local](/assets/images/addingUser.jpg)  
 
-![Updating User](/assets/images/updateMomma.jpg) 
-
----
-### Delete User
-
-![Create Category](/assets/images/deleteUser.jpg)  
 
 ---
 
 
-### Viedo Tutorial  
-https://drive.google.com/file/d/1ZzENZLaNXK-FVGqUWs76CrsMKR_Q0o0e/view
+### Heroku
+ 
+
 
 ### GitHub Repository  
 https://github.com/SonnyAddison/socialNetworkAPISetUp
