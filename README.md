@@ -85,11 +85,12 @@ Use this app in a browser.
 
 ### Heroku  
 
- https://agile-stream-65798.herokuapp.com/
+https://nameless-reaches-04274.herokuapp.com/
 
 
 ### GitHub Repository  
-https://github.com/SonnyAddison/textEditorMini
+https://github.com/SonnyAddison/textEditorMini  
+
 ---
 ## Credits
 
