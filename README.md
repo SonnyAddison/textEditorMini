@@ -72,23 +72,24 @@ Use this app in a browser.
 ---
 ### Open a Browser 
 
-![Browser](/assets/images/getUsers.jpg)  
+![Browser](/Main/Assets/images/browser.jpg)  
 
 ---
 ### localhost:3000
 
-![local](/assets/images/addingUser.jpg)  
+![local](/Main/Assets/images/localHost.jpg)  
 
 
 ---
 
 
-### Heroku
- 
+### Heroku  
+
+ https://agile-stream-65798.herokuapp.com/
 
 
 ### GitHub Repository  
-https://github.com/SonnyAddison/socialNetworkAPISetUp
+https://github.com/SonnyAddison/textEditorMini
 ---
 ## Credits
 
